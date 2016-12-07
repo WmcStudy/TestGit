@@ -18,5 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         //第五次提交,在beta的分支下创建了dev2分支，模拟两个开发者，同时向beta分支提交内容的情形。
 
+
+        //beta分支提交了新的修改。
+
     }
 }
