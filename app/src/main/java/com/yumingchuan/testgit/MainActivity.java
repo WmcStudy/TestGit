@@ -21,5 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
         //beta分支提交了新的修改。
 
+
+        //dev1 分支进行了部分项目的开发，现在要切换到到beta分支进行修复bug，，修复完成了
+
     }
 }
