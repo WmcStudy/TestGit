@@ -30,5 +30,12 @@ public class MainActivity extends AppCompatActivity {
 
         //回复stash保存的内容，修复了bug，继续工作，
 
+        //从某个分支拉去最新的代码的方法，步骤
+            //1：git fetch(+分支名) 获取所有分支的更新（或者某一个分支的更新）
+            //2：然后是使用git checkout -b tmp origin/分支名  创建某个分支分的分支，并切换到该分支
+            //3：然后是用git merge origin/分支名 把分支origin/分支名的内容合并
+            //4：在切换到dev1分支，使用git merge tmp 进行合并，这个时候，dev1已经是最新的代码了
+            //5：最后删除tmp分支，git branch -d tmp
+
     }
 }
