@@ -37,5 +37,10 @@ public class MainActivity extends AppCompatActivity {
             //4：在切换到dev1分支，使用git merge tmp 进行合并，这个时候，dev1已经是最新的代码了
             //5：最后删除tmp分支，git branch -d tmp
 
+        //远程分支的重命名的原理，删除远程分支，本地分支名字修改，再提交本地分支
+        //1：git push -delete origin 分支名
+        //2：git branch -m dev dev1    ::把本地分支dev命名为dev1
+        //3：git push origin dev1      ::把本地分支推送到远程
+
     }
 }
