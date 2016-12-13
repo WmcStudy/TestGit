@@ -41,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
         //1：git push -delete origin 分支名
         //2：git branch -m dev dev1    ::把本地分支dev命名为dev1
         //3：git push origin dev1      ::把本地分支推送到远程
+        //4: git branch --unset-upstream 清除之前的分支对应的流
+        //5: git push --set-upstream origin dev1 把当前的分支和远程分支dev1重新建立连接
+        //6: git push   推送到远程
 
     }
 }
